@@ -16,7 +16,11 @@ namespace ASIMS.Models.Methods
         public int InsertAddress(Address address)
         {
             #region
-
+			using(var dbcontex=new asimsdbcontext())
+			{
+				//添加内容
+			}
+			
             #endregion
             return -1;
         }
