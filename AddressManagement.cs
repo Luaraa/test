@@ -32,7 +32,7 @@ namespace ASIMS.Models.Methods
         public Address GetOneAddress(int no)
         {
             #region
-
+Luaraa添加的内容
             #endregion
             return null;
         }
